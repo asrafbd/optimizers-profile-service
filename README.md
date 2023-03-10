@@ -5,3 +5,4 @@ This is a simple Flask API that interacts with a PostgreSQL database to fetch in
 * Python 3.8 or higher
 * PostgreSQL database
 * Docker
+.
