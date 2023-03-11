@@ -74,7 +74,7 @@ def get_user_contact():
         return jsonify({'num': 'User not found'})
     else:
         url = get_presigned_url('images/'+num+'.jpg')
-        return jsonify({'num': row[0]['name'], 'pic_url': url})
+        return jsonify({'num': row[0], 'pic_url': url})
 
 if __name__ == "__main__":
      app.run()
